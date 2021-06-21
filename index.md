@@ -1,8 +1,6 @@
-## Welcome to an educational page about phishing
+## EDUCATION ON PHISHING 
 
-You can use the [editor on GitHub](https://github.com/jukabdukab/jukabdukab.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It appeared that you clicked on a phishing link. This website is completely safe. It's set up by technology services and its purpose is to teach you about phishing. 
 
 ### Markdown
 
@@ -19,7 +17,10 @@ Syntax highlighted code block
 - List
 
 1. Numbered
-2. List
+2. List 
+
+List
+s s
 
 **Bold** and _Italic_ and `Code` text
 
