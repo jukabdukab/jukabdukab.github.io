@@ -7,6 +7,22 @@
       <!-- This links your fonts to the html -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   
+    <!-- This is to make a table -->
+    <style>
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+    th, td {
+    padding: 5px;
+    text-align: left;
+}
+    table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+</style>
     
 </head>
 
@@ -41,26 +57,14 @@
     <img src="images/phishing-hints.png" alt="Phishing Hints" width="1266" height="648">
     
     <hr>
-
-        <body>
        <!-- This is the start of the "Tablet" section -->
-<head>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 5px;
-  text-align: left;
-}
-</style>
-</head>
-<body>
+
+
+
 
 <h2>Do's and Don'ts</h2>
 
-<table style="width15%">
+<table class="center">
   <tr>
     <td>Double check email addresses</td>
     <td>Don't trust an email just because the name is similar to one you know</td>
@@ -78,8 +82,6 @@ th, td {
     <td>Don't be silent when noticing possible attacks on the organization. Others might walk in the trap you avoided</td>
   </tr>
 </table>
-
-</body>
     </div>
 
 </body>
