@@ -10,7 +10,7 @@ body {
 }
 
 .projects {
-    height: 1750px;
+    height: 2500px;
     background-color: white; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, rgba(255, 99, 71, 1), rgba(255, 99, 71, 0.2));
     padding: 10px;
