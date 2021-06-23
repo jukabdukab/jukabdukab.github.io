@@ -1,50 +1,52 @@
-<head>
-    <!-- This will show up on the tab in your browser -->
-    <title>Phishing Test by Catch The Fire</title>
+<html>
+  <head>
+        <!-- This will show up on the tab in your browser -->
+        <title>Phishing Test by Catch The Fire</title>
 
-    <!-- This links your css file to the html -->
-    <link rel="stylesheet" type="text/css" href="index.css">
-      <!-- This links your fonts to the html -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-   
-    <!-- This is to make a table -->
-    <style> 
+        <!-- This links your css file to the html -->
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+     <style>
+       .projects {
+        background-image:linear-gradient(to right, rgba(255, 99, 71, 1), rgba(255, 99, 71, 0.2));
+     
+    }
+	  .div-texts{ 	
+       width: 550px;
+       padding: 25px;
+       margin: 0 auto;
+    }
         
-    table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-    th, td {
-    padding: 5px;
-    text-align: left;
-}
-    table.center {
-    margin-left: auto; 
-    margin-right: auto;
-    table-layout: fixed;
-    width: 1000px; 
-}
-    </style>
-    
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+        th, td {
+        padding: 5px;
+        text-align: left;
+    }
+        table.center {
+        margin-left: auto; 
+        margin-right: auto;
+        table-layout: fixed;
+        width: 1000px; 
+        }
+        
+     
+     </style>
 </head>
-
-<body>
-    <!-- This is the start of the "About" section 
-    <div class="about">
-        <h1>About</h1>
-        <p>Welcome to my portfolio</p>
-    </div>
-    -->
-    <!-- This is the start of the projects section -->
-    <div class="projects">
-        <h1>IT SECURITY AWARENESS</h1>
+  <body class="projects";>
+  <div class="div-texts">
+     <h1>IT SECURITY AWARENESS</h1>
         <p>It seems that you have clicked an unsafe link. This could be a dangerous site, containing malware 
         <br>like a virus or a keylogger. We want to encourage our staff to have awareness in order to avoid 
         <br>sensitive information falling in the wrong hands. Small businesses are unfortunately the most popular 
         <br>target for hackers and you are therefore vulnurable. Please read the table below for instructions on  
         <br>what to do and what not to do in terms of IT security. Below are some instructions on how this can be avoided in the future</p>
         <hr>
+      
     <!-- This div contains the project information -->
         <h2>HOW TO AVOID FUTURE ATTACKS</h2>
         <p>In the image below we have highlighted areas for you to inspect in a future email.
@@ -57,16 +59,19 @@
     <hr>    
     <!-- This is the project image -->  
     <h2>AN EMAIL WITH UNSAFE AND UNTRUSTED CONTENT</h2>     
-    <img src="images/phishing-hints.png" alt="Phishing Hints" width="1266" height="648">
+    </div>
+    <img src="images/phishing-hints.png" alt="Phishing Hints" width="1266" height="648" class="center">
+    <div class="div-texts">
     <hr>
         
     <!-- This is the start of the "Tablet" section -->
     <h2>An EMAIL WITH SAFE AND TRUSTED CONTENT</h2>
     <p>Here you can see how it is supposed to look like.</p>
-    <img src="images/Safe-email.png" alt="Phishing Hints" width="1266" height="648">
+    </div>
+    <img src="images/Safe-email.png" alt="Phishing Hints" width="1266" height="648" class="center">
+    <div class="div-texts"></div>
     <hr>
-
-<h2>Do's and Don'ts</h2>
+    <h2>Do's and Don'ts</h2>
 
 <table class="center">
   <tr>
@@ -88,5 +93,6 @@
 </table>
     <hr>        
     </div>
-
-</body>
+   </div>
+    </body>
+  </html>
